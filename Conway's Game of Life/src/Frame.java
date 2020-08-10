@@ -76,9 +76,7 @@ public class Frame{
 				}
 				else
 				{
-					m.changeTickRate(60D);
-					m.g.prepStage = true;
-					startButton.setText("Start");
+					stopSimulation();
 				}
 				
 					
@@ -92,8 +90,7 @@ public class Frame{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				m.g.clearBoard();
-				
-					
+				stopSimulation();
 				
 			}
 			
@@ -119,7 +116,6 @@ public class Frame{
 
 			@Override
 			public void mouseEntered(MouseEvent e) {
-				// TODO Auto-generated method stub
 				
 			}
 
@@ -137,6 +133,7 @@ public class Frame{
 				if(xLocation < m.g.gridSize && yLocation < m.g.gridSize)
 					m.g.changePixel(xLocation,yLocation);
 				
+				
 			}
 
 			@Override
@@ -151,5 +148,11 @@ public class Frame{
 	//dont use this to change speed, use changeTickRateFromSlider() inside of main class
 	public int getSpeedFromSlider() {
 		return this.speedSlider.getValue();
+	}
+	
+	private void stopSimulation() {
+		m.changeTickRate(60D);
+		m.g.prepStage = true;
+		startButton.setText("Start");
 	}
 }
