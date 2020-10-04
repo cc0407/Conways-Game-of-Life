@@ -1,5 +1,5 @@
 # Conways-Game-of-Life
-showcasing Conway's Game of Life in java!
+Showcasing Conway's Game of Life in java!
 
 ## How to Run
 - install newest version of JRE
