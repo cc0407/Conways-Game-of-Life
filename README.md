@@ -13,7 +13,7 @@ This project showcases **Conway's Game of Life**, a zero-player cellular automat
 1. **Install the latest version of Java Runtime Environment (JRE)** if it's not already installed. You can download it [here](https://www.java.com/en/download/).
 2. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/Conways-Game-of-Life.git
+   git clone https://github.com/cc0407/Conways-Game-of-Life.git
    ```
 3. Navigate to the project directory:
    ```bash
