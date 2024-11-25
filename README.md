@@ -1,8 +1,11 @@
+<img src="assets/game-of-life.gif" alt="Simulation Example" width="800">
+
 # Conway's Game of Life
 
 This project showcases **Conway's Game of Life**, a zero-player cellular automaton simulation, implemented in Java. Create, edit, and watch patterns evolve over time according to simple yet fascinating rules!
 
 ## Features
+
 - Interactive grid for designing initial cell configurations.
 - Adjustable simulation speed using a slider.
 - Options to start, pause, and clear the simulation for experimentation.
@@ -10,6 +13,7 @@ This project showcases **Conway's Game of Life**, a zero-player cellular automat
 - Lightweight and easy to run with minimal setup.
 
 ## How to Run
+
 1. **Install the latest version of Java Runtime Environment (JRE)** if it's not already installed. You can download it [here](https://www.java.com/en/download/).
 2. Clone this repository to your local machine:
    ```bash
@@ -26,9 +30,11 @@ This project showcases **Conway's Game of Life**, a zero-player cellular automat
    > **Note:** The `Conways-Game-of-Life.jar` file **must remain in the same directory** as the accompanying files for proper functionality.
 
 ## Gameplay Instructions
+
 Not familiar with Conway's Game of Life? Check out the [Wikipedia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for an overview of the rules.
 
 ### Getting Started
+
 1. **Set up the grid**:
    - Click on any cell to toggle its state between active (black) and inactive (white).
    - Design any initial pattern you like.
@@ -44,21 +50,28 @@ Not familiar with Conway's Game of Life? Check out the [Wikipedia page](https://
    - Press the **Clear** button to reset the grid and start fresh.
 
 ## Example Patterns to Try
+
 Here are some classic patterns you can set up on the grid:
-- **Glider**: A small pattern that moves diagonally across the grid.
-- **Blinker**: A simple oscillator that alternates between two states.
-- **Spaceship**: A pattern that moves horizontally or vertically across the grid.
-- **Gosper Glider Gun**: A more complex structure that produces a steady stream of gliders.
+
+- ![Glider Static](assets/glider.png)  
+   **Glider**: A small pattern that moves diagonally across the grid.
+- ![Blinker Static](assets/blinker.png)  
+   **Blinker**: A simple oscillator that alternates between two states.
+- ![Spaceship Static](assets/Spaceship.png)  
+   **Spaceship**: A pattern that moves horizontally or vertically across the grid.
 
 ## Requirements
+
 - Java Runtime Environment (version 8 or later).
 
 ## Known Issues
+
 - The `.jar` file must remain in the same directory as its accompanying files; otherwise, the program may not function as expected.
-- Some large grids or high speeds may result in performance issues depending on your system.
 
 ## Contributing
+
 Contributions are welcome! If you have ideas for improvements or new features, feel free to fork the repository and submit a pull request.
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
